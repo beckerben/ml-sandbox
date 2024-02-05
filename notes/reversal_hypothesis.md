@@ -19,15 +19,13 @@ A ML classification model can be used to predict a reversal using one or more in
     - Fairly large community, futures.io useful
     - Auto executing strategy 
     - Market replay for accurate tick level backtesting
-    - Owned and very familiar with
-    - Exporter script nearly done
+    - Exporter script done
 - Rapidminer for auto modeling ideas and quick sandboxing
 - Python + tensorflow for production model
 - For auto trading, python model accessible via flask restful api called from C# strategy passing data to get predicted reversal, trade reversal detected with a 2:1 entry, exit upon next predicted reversal or stop loss hit or strictly by profit lost, toy with position sizing to maybe have a runner
 - Other models which work with sequencing might be explored as well, such as RNN, LSTM, GRU etc.
 - Github Co-Pilot and ChatGPT are huge time savers and can fill in the gap and help avoid pitfalls from prior attempts
 - Leveraging a GPU is nice, useful space for some python / modeling dev: Google Colab 
-
 
 ## Ninja Indicators
 1. **Oscillators:** These indicators fluctuate above and below a line or between set levels to identify overbought or oversold conditions.
